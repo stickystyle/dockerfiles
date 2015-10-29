@@ -1,6 +1,5 @@
 FROM debian:jessie
 MAINTAINER Ryan Parrish <ryan@stickystyle.net>
-
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
@@ -13,4 +12,5 @@ RUN apt-get update && \
 
 RUN pip install rq-dashboard
 
+EXPOSE 9181
 ENTRYPOINT ["rq-dashboard"]

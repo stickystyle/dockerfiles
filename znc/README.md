@@ -1,6 +1,7 @@
 # ZNC for Docker
 
-Run the [ZNC][] IRC Bouncer in a Docker container.
+Run the [ZNC][] IRC Bouncer in a Docker container.  
+Original idea (and most of this text) from https://github.com/jimeh/docker-znc
 
 [ZNC]: http://znc.in
 
